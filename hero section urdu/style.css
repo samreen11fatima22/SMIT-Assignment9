@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'myFont';
+  src: url('myFont/NotoNastaliqUrdu-SemiBold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: 'myFont', serif;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+:root {
+  --primary: #61bb46;
+  --secondary: #024d9a;
+  --tertiary: grey;
+}
+header{
+    height: 10vh;
+    background-color:rgb(255, 254, 254);
+    color: var(--tertiary);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(187, 184, 184);
+    
+}
+
+nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: canter;
+    gap: 55px;
+    /* flex-grow: 1; */
+    margin-left: 2px;
+    flex-direction: row-reverse;
+    
+}
+a{
+    text-decoration: none;
+    color: var(--tertiary);
+    
+}
+li{
+    list-style: none;
+
+}
+
+#button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+ .logo{
+    
+    /* flex-grow: 2; */
+   padding: 30px;
+    width: 144px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+.hero {
+  width: 1320px; 
+}
+
+.hero .img {
+  padding-top: 50px;
+  width: 400px;
+  height: 350px;
+  float: left;
+  border-radius: 100px;
+  background-color: transparent;
+}
+
+.img:hover {
+  opacity: 0.8;
+}
+
+.img img {
+  width: 500px;
+  height: 450px;
+  margin-left: 10px;
+  border-radius: 100px 0px 100px 0px;
+  box-shadow: 0px 0px 10px 5px rgb(224, 221, 216);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.main {
+  margin: auto;
+  width: 600px;
+  float: right;
+  text-align: right;
+  color: black;
+  margin-right: 10px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 55px;
+  line-height: 2em;
+  
+}
+
+h1 span {
+  font-size: 60px;
+  color: var(--primary);
+}
+
+.main p {
+  color: var(--tertiary);
+}
+
+#box1 {
+  padding: 8px 30px;
+  text-align: center;
+  border-radius: 999px;
+  margin: 15px;
+  font-size: 10px;
+  color: #61bb46;
+  border: 1px solid var(--tertiary);
+  cursor: pointer;
+}
+
+#box1:hover {
+  background-color: lightgray;
+  color: black;
+
+}
+
+#box2 {
+  /* padding: 8px 40px; */
+  padding: 8px 30px;
+  text-align: center;
+  border-radius: 999px;
+  margin: 15px;
+  font-size: 10px;
+  border: none;
+  background-color: #61bb46;
+  color: rgb(9, 9, 9);
+  cursor: pointer;
+  /* box-shadow: lightgreen 0px 0px 3px 3px; */
+}
+
+#box2:hover {
+  background-color: darkgreen;
+  border: none;
+  color: white;
+}
+
+section {
+  margin-top: 50px;
+}

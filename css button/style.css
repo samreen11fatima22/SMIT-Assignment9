@@ -1,0 +1,368 @@
+
+
+   @font-face {
+  font-family: 'Roboto';
+  src: url('font/Roboto.zip') ;
+  font-weight: 400;
+
+}
+body{
+    background-color: rgb(4, 3, 3);
+    color: rgb(255, 249, 249);
+    
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+
+}
+header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+
+}
+
+#main-search{
+
+    padding: 10px 60px;
+    border: 999px;
+    margin: 0px 50px;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: grey 0px 0px 10px 3px;
+
+}
+nav >ul{
+    text-decoration: none;
+    display: flex;
+
+}
+nav >ul >li{
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    
+
+}
+
+
+
+
+header >h1{
+    background-color: black;
+    color: rgb(251, 244, 244);
+    font-style: italic;
+    font-weight: 900px;
+    text-align: center;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 50px;
+}
+header >h1>span{
+    color: rgb(191, 232, 130);
+}
+.box{
+    
+    padding: 50px 50px;
+    margin: auto;
+    width: 330px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 35px;
+    padding-top: 50px;
+    display: inline-block;
+    margin: 5px 5px;
+    color: rgb(19, 18, 18);
+    background-color: white;
+
+    
+}
+button{
+    cursor: pointer;
+}
+#button1{
+background-color: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+border-radius: 999px;
+padding: 11px 20px;
+font-size: 12px;
+font-weight: 700px;
+border: 1px solid rgb(17, 17, 17);
+ box-shadow: rgba(164, 169, 168, 0.6) 0px 0px 16px;
+
+}
+#button2{
+background-color: rgb(10, 102, 194);
+color: rgb(255, 255, 255);
+border-radius: 999px;
+padding: 11px 30px;
+font-size: 13px;
+font-weight: 700px;
+border:none;
+}
+#button3{
+background-color: rgb(255, 56, 92);
+color: rgb(255, 255, 255);
+border-radius: 9px;
+padding: 11px 20px;
+font-size: 13px;
+font-weight: 700px;
+border:none;
+}
+#button4{
+background-color:  rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+padding: 11px 40px;
+font-size: 13px;
+font-weight: 700px;
+border:none;
+ box-shadow: rgba(164, 169, 168, 0.6) 0px 0px 16px;
+
+}
+
+#button5{
+background-color: rgb(0, 102, 255);
+color: rgb(255, 255, 255);
+padding: 15px 28px;
+font-size: 13px;
+font-weight: 700px;
+border-radius:999px;
+border: none;
+box-shadow: rgb(0, 73, 184) 0px 6px 0px;
+}
+#button6{
+background-color: rgb(0, 166, 81);
+color: rgb(255, 255, 255);
+padding: 15px 30px;
+font-size: 13px;
+font-weight: 750px;
+border-radius:4px;
+border: none;
+}
+#button7{
+background: linear-gradient(110deg, rgb(254, 218, 117), rgb(214, 41, 118), rgb(79, 91, 213));
+    color: rgb(255, 255, 255);
+padding: 15px 30px;
+font-size: 13px;
+font-weight: 750px;
+border-radius:9px;
+border: none;
+}
+#button8{
+background: white;
+
+color: rgb(0, 0, 0);
+padding: 15px 30px;
+font-size: 13px;
+font-weight: 750px;
+border-radius:999px;
+border: 1px solid rgb(187, 187, 187);
+}
+#button9{
+background:rgb(250, 204, 21);
+
+color: rgb(24, 24, 27);
+padding: 15px 30px;
+font-size: 13px;
+font-weight: 750px;
+border-radius:999px;
+border: 1px solid rgb(187, 187, 187);
+}
+#button9{
+background: rgb(250, 204, 21);
+
+color: rgb(0, 0, 0);
+padding: 15px 30px;
+font-size: 13px;
+font-weight: 950px;
+border-radius: 999px;
+ box-shadow: rgb(167, 128, 0) 0px 4px 0px;
+ border: none;
+
+/* border: 1px solid rgb(187, 187, 187); */
+}
+#button10{
+background: rgb(9, 9, 9);
+ box-shadow: rgba(164, 169, 168, 0.6) 0px 0px 16px;
+color: rgb(253, 252, 252);
+padding: 20px 30px;
+font-size: 20px;
+font-weight: 950px;
+border-radius: 0px;
+ /* box-shadow: rgb(167, 128, 0) 0px 4px 0px; */
+ border: none;
+
+/* border: 1px solid rgb(187, 187, 187); */
+}
+#button11{
+background: rgb(41, 247, 34);
+box-shadow: 0px 0px 0px rgb(149, 31, 31) 10px;
+color: rgb(21, 20, 20);
+padding: 20px 30px;
+font-size: 14px;
+font-weight: 950px;
+border-radius: 1px;
+ /* box-shadow: rgb(167, 128, 0) 0px 4px 0px; */
+ border: none;
+
+/* border: 1px solid rgb(187, 187, 187); */
+}
+#button12{
+background: white;
+
+color: rgb(0, 0, 0);
+padding: 15px 30px;
+font-size: 13px;
+font-weight: 750px;
+border-radius:0px;
+border: 1px solid rgb(10, 13, 10);
+border-top: none;
+box-shadow: 0px 5px 1px  rgb(35, 224, 29);
+}
+#button12 >i{
+    color: green;
+}
+#button13{
+background:white;
+
+color: rgb(0, 0, 0);
+padding: 12px 30px;
+font-size: 15px;
+font-weight: 750px;
+border-radius:5px;
+border: 1px solid rgb(107, 103, 103);
+ box-shadow: rgba(251, 231, 14, 0.6) 0px 0px 16px;
+
+
+}
+#button13 >i{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(255, 196, 35);
+    padding: 4px;
+    border-radius: 19px;
+
+}
+#button15{
+background:rgb(0, 0, 0);
+ box-shadow: rgba(164, 169, 168, 0.6) 0px 0px 16px;
+color: rgb(255, 255, 255);
+padding: 12px 30px;
+font-size: 15px;
+font-weight: 750px;
+border-radius:999px;
+border: 1px solid rgb(107, 103, 103);
+
+}
+#button15 >i{
+    color: rgb(87, 155, 67);
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 19px;
+}
+#button14{
+background:rgb(0, 0, 0);
+
+color: rgb(255, 255, 255);
+padding: 12px 30px;
+font-size: 15px;
+font-weight: 750px;
+border-radius:999px;
+border: 1px solid rgb(107, 103, 103);
+ box-shadow: rgba(164, 169, 168, 0.6) 0px 0px 16px;
+
+
+}
+#button14 >i{
+    color: rgb(255, 255, 254);
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 19px;
+
+}
+#button16{
+background:rgb(255, 255, 255);
+ box-shadow: rgba(12, 113, 102, 0.6) 0px 0px 16px;
+
+color: rgb(0, 0, 0);
+padding: 3px 50px;
+font-size: 20px;
+font-weight: 750px;
+border-radius:999px;
+border: 1px solid grey;
+/* border: 1px solid rgb(107, 103, 103); */
+
+}
+#button16 >i{
+    color: rgb(250, 5, 5);
+    font-size: 20px;
+    /* background-color: rgb(255, 187, 0); */
+    padding: 4px;
+    /* border-radius: 19px; */
+
+}
+
+#button17{
+background:rgb(178, 189, 187);
+
+color: rgb(0, 0, 0);
+padding: 15px 40px;
+font-size: 15px;
+font-weight: 700px;
+border-radius:999px;
+border: 0px;
+
+
+}
+
+#button18{
+background:rgb(5, 18, 16);
+
+color: rgb(255, 255, 255);
+padding: 15px 40px;
+font-size: 15px;
+font-weight: 700px;
+border-radius:2px;
+border: 0px;
+ box-shadow: rgba(126, 214, 39, 0.6) 0px 0px 16px;
+
+}
+#button19{
+background:rgb(119, 158, 216);
+
+color: rgb(255, 255, 255);
+padding: 12px 30px;
+font-size: 15px;
+font-weight: 750px;
+border-radius:999px;
+border: 4px dotted rgb(221, 220, 247);
+
+}
+#button20{
+background-color: rgb(145, 183, 243);
+  color: rgb(247, 250, 254);
+padding: 12px 30px;
+font-size: 15px;
+font-weight: 750px;
+border-radius:999px;
+border: 1px solid rgb(166, 163, 255);
+
+}
+#button21{
+background-color: rgb(248, 15, 15);
+  color: rgb(247, 250, 254);
+padding: 12px 30px;
+font-size: 15px;
+font-weight: 750px;
+border-radius:999px;
+/* border: 1px solid rgb(182, 180, 240); */
+border: 0px;
+
+}
